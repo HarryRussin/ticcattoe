@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .square{
+        @apply border-2 items-center flex justify-center w-[75px] h-[75px] sm:w-[100px] transition-all sm:h-[100px] text-[3rem] sm:text-[5rem] text-gray-200 border-black
+    }
+}
